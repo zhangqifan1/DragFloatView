@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.as.demo_ok37_float.DragFloatView
+        android:id="@+id/dfv"
+        android:clickable="true"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:text="俺是字"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv"-->
+            <!--android:src="@drawable/ic_launcher_background"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv"-->
+            <!--android:textSize="26sp"-->
+            <!--android:text="俺是字"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    </com.as.demo_ok37_float.DragFloatView>
+
+
+    <!--<com.as.demo_ok37_float.DragFloatingActionButton-->
+        <!--android:orientation="horizontal"-->
+        <!--android:clickable="true"-->
+        <!--android:background="#f00"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="160dp" >-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv1"-->
+            <!--android:src="@mipmap/ic_launcher"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv2"-->
+            <!--android:src="@mipmap/ic_launcher"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp" />-->
+    <!--</com.as.demo_ok37_float.DragFloatingActionButton>-->
+
+</RelativeLayout>
